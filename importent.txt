@@ -1,0 +1,5 @@
+
+apt-get -qq -y install espeak-ng > /dev/null 2>&1
+apt-get install -y espeak-ng
+python -m spacy download en_core_web_sm
+
